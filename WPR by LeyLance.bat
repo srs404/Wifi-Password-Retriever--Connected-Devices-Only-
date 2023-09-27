@@ -18,6 +18,6 @@ goto proc
 
 :proc
 cls
-netsh wlan show profiles %a% key=clear
+netsh wlan show profiles "%a%" key=clear
 pause>nul
 goto start
